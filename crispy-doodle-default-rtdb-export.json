@@ -1,0 +1,50 @@
+{
+  "tasks": {
+    "id": "file",
+    "value": "File",
+    "taskItem": [
+      {
+        "taskName": "'Assignment 1'",
+        "taskDeadline": "DateTime(2021, 9, 8)",
+        "taskSubject": "'Applications Development'",
+        "unitColor": "Colors.redAccent"
+      },
+      {
+        "taskName": "'Assignment 2'",
+        "taskDeadline": "DateTime(2021, 10, 21)",
+        "unitColor": "Colors.redAccent",
+        "taskSubject": "'Applications Development'"
+      },
+      {
+        "taskName": "'Video Reflection'",
+        "unitColor": "Colors.redAccent",
+        "taskDeadline": "DateTime(2021, 10, 27)",
+        "taskSubject": "'Applications Development'"
+      },
+      {
+        "taskName": "'Online test 1'",
+        "unitColor": "Colors.blueAccent",
+        "taskDeadline": "DateTime(2021, 8, 20)",
+        "taskSubject": "'Mobile Applications'"
+      },
+      {
+        "taskName": "'Online test 2'",
+        "unitColor": "Colors.blueAccent",
+        "taskDeadline": "DateTime(2021, 10, 8)",
+        "taskSubject": "'Mobile Applications'"
+      },
+      {
+        "taskName": "'Case Study'",
+        "unitColor": "Colors.blueAccent",
+        "taskDeadline": "DateTime(2021, 9, 13)",
+        "taskSubject": "'Mobile Applications'"
+      },
+      {
+        "taskName": "'Project'",
+        "unitColor": "Colors.blueAccent",
+        "taskDeadline": "DateTime(2021, 10, 18)",
+        "taskSubject": "'Mobile Applications'"
+      }
+    ]
+  }
+}

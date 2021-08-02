@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "312552108530",
+    "project_id": "crispy-doodle",
+    "storage_bucket": "crispy-doodle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312552108530:android:425e4a46d6bb6f1c3cfb6b",
+        "android_client_info": {
+          "package_name": "com.amn.crispy_doodle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312552108530-rcvpis4k99ivab49lc8ct00tbd1ef6oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3ZW0IO8DHh77nAFsokNWbafYwOMNCTDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312552108530-rcvpis4k99ivab49lc8ct00tbd1ef6oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
