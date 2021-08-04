@@ -53,34 +53,36 @@ List<TaskItem> sampleTasks = [
       taskSubject: 'Mobile Applications'),
 ];
 
-class AddUser extends StatelessWidget {
-  final String fullName;
-  final String company;
-  final int age;
+class AddTask extends StatelessWidget {
+  final String taskName;
+  final String taskSubject;
+  final DateTime taskDeadline;
 
-  AddUser(this.fullName, this.company, this.age);
+  AddTask(this.taskName, this.taskDeadline, this.taskSubject);
 
   @override
   Widget build(BuildContext context) {
     // Create a CollectionReference called users that references the firestore collection
-    CollectionReference users = FirebaseFirestore.instance.collection('users');
+    CollectionReference users = FirebaseFirestore.instance.collection('tasks');
 
-    Future<void> addUser() {
+    Future<void> addTask() {
       // Call the user's CollectionReference to add a new user
       return users
           .add({
-            'full_name': fullName, // John Doe
-            'company': company, // Stokes and Sons
-            'age': age // 42
+            'taskName': taskName, // John Doe
+            'taskSubject': taskSubject, // Stokes and Sons
+            'taskDeadline': taskDeadline // 42
           })
-          .then((value) => print("User Added"))
-          .catchError((error) => print("Failed to add user: $error"));
+          .then((value) => print("Task Added"))
+          .catchError((error) => print("Failed to add task: $error"));
     }
 
-    return TextButton(
-      onPressed: addUser,
+    return ElevatedButton(
+      style: ButtonStyle(),
+      onPressed: addTask,
       child: Text(
-        "Add User",
+        "Add Task",
+        style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
       ),
     );
   }

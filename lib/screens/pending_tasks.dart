@@ -35,7 +35,7 @@ class _PendingTasksState extends State<PendingTasks> {
                 endIndent: size.width / 10,
                 color: Colors.grey[800],
               ),
-              AddUser('Amaan Ansari', 'Corporate', 21),
+              AddTask('Amaan Ansari', DateTime.now(), 'Applied Project'),
               Expanded(
                 child: ListView.builder(
                     itemCount: sampleTasks.length,
